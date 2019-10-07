@@ -13,14 +13,14 @@
 	
 	#include <iostream>
 	#include <string>
-        using namespace std;
-        void main()
+	using namespace std;
+	void main()
 	{	
-	string str1 , str2;
-	cin>>str1>>str2;
-	if (str1 != str2)
-	    {
+	    string str1 , str2;
+	    cin>>str1>>str2;
+	    if (str1 != str2)
+	      {
 		cout<<(str1 >= str2 ? str1 : str2)<<endl;
-	    }
+	      }
       	}
 
