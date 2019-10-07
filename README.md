@@ -10,7 +10,8 @@
 *2.35 j类型为int,&k类型为const int &,*p类型为const int *,j2类型为const int,&k2类型为const int &
 
 *3.4
-	
+
+	//比较是否相同
 	#include <iostream>
 	#include <string>
 	using namespace std;
@@ -23,4 +24,22 @@
 		cout<<(str1 >= str2 ? str1 : str2)<<endl;
 	      }
 	}
+	//比较长短
+	#include <iostream>
+	#include <string>
+	using namespace std;
+	void main()
+	{	
+		string str1 , str2;
+		cin>>str1>>str2;
+		if (str1.size() != str2.size())
+		{
+			cout<<(str1.size() >= str2.size() ?str1 :str2)<<endl;
+		}
+		else
+		{
+			cout<<"The length of these strings are the same!"<<endl;
+		}	
+	}
+	
 
