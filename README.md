@@ -215,7 +215,7 @@
 	    pos width = 0;
 	};
 	
-	
+  	
 	
 	#include<iostream>
 	#include"Screen.h"
