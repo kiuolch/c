@@ -691,7 +691,7 @@ elem2为尾后迭代器：删除elem1到最后一个元素
 
 *12.30 
  
-        //主函数.cpp 
+ 主函数.cpp 
 	#include "Chapter12.h"
 	#include <iostream>
 	using namespace std;
@@ -714,8 +714,7 @@ elem2为尾后迭代器：删除elem1到最后一个元素
 	}
 	
 
-
-        //头文件.h
+头文件.h
 	#ifndef Cccc//第一次包含本头文件时，#ifndef判断为真，预处理器将处理后面的内容直到#endif，此时的预处理变量Cccc已定义
 	#define Cccc//第二次包含本头文件时，#ifndef判断为假，预处理器将忽略后面的内容
 
@@ -1117,7 +1116,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 
 *16.19 
 
-        //.h
+.h
 	#ifndef HAVE_H
 	#define HAVE_H
 
@@ -1131,7 +1130,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 	#endif HAVE_H
 	
 
-	//.cpp
+.cpp
 	#include <iostream>
 	#include <vector>
 	#include <list>
@@ -1151,7 +1150,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 
 *16.41
 
-	//.h
+.h
 	#ifndef REU_TYPE_H
 	#define REU_TYPE_H
 
@@ -1162,7 +1161,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 	#endif REU_TYPE_H
 	
 
-	//.cpp
+.cpp
 	#ifndef REU_TYPE_H
 	#define REU_TYPE_H
 
@@ -1174,7 +1173,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 
 *16.62
 
-	//Scales_data.h
+Scales_data.h
 	#include <iostream>  
 	#include <string>  
 	class Sales_data  
@@ -1211,8 +1210,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 	    };  
 	}
 	
-
-	//Scales_data.cpp
+Scales_data.cpp
 	#include "Sales_data.h"  
 
 	Sales_data::Sales_data(std::istream &is)  
@@ -1282,7 +1280,7 @@ SmallInt可以转换为int，longDouble可以转换为float和double，因此内
 	}  
 	
 	
-	//main.cpp
+main.cpp
 	#include <memory>  
 	#include <unordered_set>  
 	#include "Sales_data.h"  
